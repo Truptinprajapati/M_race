@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.trupti.demo_recycleview.MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="125dp"
+       android:background="#639936"
+       android:orientation="vertical">
+
+      <android.support.v7.widget.RecyclerView
+          android:id="@+id/rv"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+
+   </LinearLayout>
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+<LinearLayout
+    android:background="#9f9ddc"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:background="#53c1c1"
+       android:layout_height="200dp"
+       android:orientation="vertical">
+      <android.support.v7.widget.RecyclerView
+          android:id="@+id/rvone"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:background="#ff6d6d"
+       android:orientation="vertical">
+      <android.support.v7.widget.RecyclerView
+          android:id="@+id/rvtwo"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+   </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:background="#a662b3"
+       android:orientation="vertical">
+      <android.support.v7.widget.RecyclerView
+          android:id="@+id/rvthree"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+   </LinearLayout>
+
+</LinearLayout>
+   </ScrollView>
+
+</LinearLayout>
